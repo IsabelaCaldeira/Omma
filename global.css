@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.container-logo{
+    background-color: #FFC107;
+    text-align: center;
+}
+
+nav{
+    background-color: #ffa000;
+    text-align: center;
+}
+
+.main-receita{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.titulo-receita {
+    color: #FFA000;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.descricao-conteudo{
+    color: #176902;
+    font-size: 15px;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    display: inline;
+    padding: 0 30px 0 30px;
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+.ingredientes{
+    margin-top:20;
+    margin-bottom:20;
+}
+
+.receitas-relacionadas h3{
+    color: #FFA000;
+    font-size:20px;
+    margin-top: 120px;
+    margin-bottom: 20;
+}
+
+.flex{
+    display: flex;
+    flex-flow:column;
+}
+
+.image-risoto{
+    margin-top: 8px;
+    margin-bottom: 25px;
+    background: #C4C4C4;
+    width: 592px;
+    height: 311px;
+}
+
+.moqueca{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bolo-de-banana{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tabule{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.preparo-texto{
+    text-align: left;
+    margin-right: 33%;
+}
+
+.video-youtube {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 580px;
+    height: 317px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    display:inline;
+}
+
+.menu-item-link{
+    color: #fff;
+    font-weight: bold;
+    font-style: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.main-receitas{
+    display: flex;
+}
+
+.h1-receitas{
+    margin-left: 50px;
+    color:#ffa000
+}
+
+.flex-menu1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 75px;
+    margin-bottom:200px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.menu-individual p{
+    font-size: 20px;
+}
+
+.flex-menu-img{
+    max-width: 300px;
+
+}
+
+button{
+    background-color: #176902;
+    width: 185px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.receitas-links{
+    font-weight: bold;
+    font-style: 20px;
+    text-decoration: none;
+    color:  #fff;
+}
+
+.banner-home{
+    background-image: url(/images/image\ 1home1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 10vw 5vw;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+
+.banner-home h1 {
+    text-align: right;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.title__home { 
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFA000;
+    margin: 0;
+    padding: 0;
+}
+
+.container-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 5%;
+    margin-bottom:200px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+.container-home h4{
+    font-size: 20px;
+}
+
+.container__home div a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #176902;
+    padding: 10px 15px;
+}
+
+.banner_bottom{
+    background-image: url(/images/image\ 2home2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10vw;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: left;
+}
+
+.banner__bottom h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.banner__bottom p {
+    box-sizing: border-box;
+    width: 20vw;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+footer{
+    background-color: #FFC107;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    color:#fff;
+}
